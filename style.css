@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #6366f1;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  padding-top: 20px;
+  color: white;
+}
+header h2 {
+  font-size: 32px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+header nav span {
+  font-size: 18px;
+}
+header nav span:hover {
+  cursor: pointer;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+  height: 80vh;
+}
+main h1 {
+  text-align: center;
+  font-size: 64px;
+}
+main p {
+  text-align: center;
+  font-size: 14px;
+}
